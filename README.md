@@ -13,7 +13,7 @@ Scanner acts as a translator between raw program text and the compiler. It reads
 ## Misc.
 1. To add your own data type, you can either enter it into the Table.txt with a new line character, see the file for details, as a runtime option, or insert it into the gDataTypes as a compile-time choice.
 2. FileInfo contains helpful information, e.g. Type, Content, Row and isHead, for each token.
--Type: There are ten types, including the invalid type.
--Content: For what the token really is.
--Row: Literally the row number you see in an IDE.
--isHead: This member variable makes the vector a map-like data structure.
+- Type: There are ten types, including the invalid type.
+- Content: For what the token really is.
+- Row: Literally the row number you see in an IDE.
+- isHead: This member variable makes the vector a map-like data structure.
