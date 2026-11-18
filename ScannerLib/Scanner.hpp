@@ -8,7 +8,7 @@ using namespace std;
 
 class FileInfo
 {
-    friend ostream &operator << (ostream &out, const FileInfo &info)
+    friend ostream &operator<<(ostream &out, const FileInfo &info)
     {
         out << "Type: " << info.Type << ", Head: " << info.isHead << ", Content: " << info.Content;
         return out;
