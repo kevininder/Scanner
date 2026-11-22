@@ -17,6 +17,7 @@
 #include <limits>
 #include <utility>
 #include <tuple>
+#include <functional>
 #include <regex>
 #include <bitset>
 #include <memory>
